@@ -2,7 +2,7 @@
 
     // *** VERTEX SHADER *** RUNS ON EACH VERTEX
     // GLSL version gl shader language is a c++-like language used to write shaders.
-    // We use the core features of 3.3
+    // We use the core features of 4.1
     // layouts: describe the input
     // vertPos: x,y,z z=0
     // color: r,g,b color

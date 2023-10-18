@@ -1,5 +1,12 @@
 #include "../includes/Graphics.h"
 
+    // *** VERTEX SHADER *** RUNS ON EACH VERTEX
+    // GLSL version gl shader language is a c++-like language used to write shaders.
+    // We use the core features of 3.3
+    // layouts: describe the input
+    // vertPos: x,y,z z=0
+    // color: r,g,b color
+    // theColor = color;: the input colour value becomes the output colour
 static const char* vertexShaderSource = "#version 410 core\n\
     layout (location = 0) in vec3 vertPos;\n\
     layout (location = 1) in vec3 color;\n\

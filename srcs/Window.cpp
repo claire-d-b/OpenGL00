@@ -40,13 +40,13 @@ int main()
     std::cout << "Glew version: " << glewGetString(GLEW_VERSION) << std::endl;
 
     verts = (GLfloat *)calloc(18, sizeof(GLfloat));
-    verts[0] = 0.5f; // left
+    verts[0] = 0.5f; // right
     verts[1] = -0.5f;
     verts[2] = 0.0f;
     verts[3] = 1.0f;
     verts[4] = 0.0f;
     verts[5] = 0.0f;
-    verts[6] = -0.5f; // right
+    verts[6] = -0.5f; // left
     verts[7] = -0.5f;
     verts[8] = 0.0f;
     verts[9] = 0.0f;
